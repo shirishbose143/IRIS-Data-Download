@@ -1,9 +1,12 @@
 # IRIS-Data-Download
-#################################################################################################
+#######################################################################
+Code for downloading waveform data from IRIS
 
-Code for donwloading waveform data from IRIS
+Python dependecies can be install by running:
 
-#################################################################################################
+pip install obspy pandas matplotlib numpy
+
+#######################################################################
 
 1. The process begins by downloading station metadata from the IRIS Gmap tool at https://ds.iris.edu/gmap. Save the output in TXT format as a file named 'sta' and ensure all header lines are removed before proceeding.
 
